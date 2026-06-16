@@ -1,0 +1,306 @@
+body{
+	display: flex;
+	background-color: #ffffff;
+	flex-direction: column;	
+	/*flex-wrap: wrap;*/
+	line-height: 1.6;
+	/*margin-left, margin-right is not the solution. Just here for looks*/
+	/*margin-left: 20%;
+	margin-right: 20%;*/
+
+.banner{
+	object-fit: cover;
+	width: 100%;
+	height: fit-content;
+}
+.container{
+	width: 100%;
+	height: fit-content;
+	position: relative;
+}
+.intro{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	line-height: 1.2;
+	font-size: 26px;
+	text-align: center;
+	/*padding-right:5px;*/
+	font-family: Helvetica, sans-serif
+}
+.main{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	line-height: 1.6;
+	max-width: 768px;
+	font-size: 20px;
+	/*padding-left: 300px;
+	padding-right: 300px;*/
+
+	/*padding-right:5px;*/
+	font-family: Helvetica, sans-serif
+}
+.submain{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	line-height: 1.6;
+	font-size: 15px;
+	/*padding-left: 300px;
+	padding-right: 300px;*/
+
+	/*padding-right:5px;*/
+	font-family: Helvetica, sans-serif
+}
+.bigsub{
+	display: flex;
+	justify-content: flex-start;
+	text-align: left;
+	flex-wrap: wrap;
+	line-height: 1.6;
+	font-size: 17px;
+	/*padding-left: 300px;
+	padding-right: 300px;*/
+
+	/*padding-right:5px;*/
+	font-family: Helvetica, sans-serif
+}
+.sub{
+	display: flex;
+	justify-content: flex-start;
+	text-align: left;
+	flex-wrap: wrap;
+	line-height: 1.6;
+	font-size: 14px;
+	/*padding-left: 300px;
+	padding-right: 300px;*/
+
+	/*padding-right:5px;*/
+	font-family: Helvetica, sans-serif
+}
+.small{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	line-height: 1.6;
+	font-size: 13px;
+	/*padding-left: 300px;
+	padding-right: 300px;*/
+
+	/*padding-right:5px;*/
+	font-family: Helvetica, sans-serif
+}
+.small2{
+	display: flex;
+	justify-content: flex-start;
+	line-height: 1.6;
+	font-size: 12px;
+}
+.small3{
+	display: flex;
+	justify-content: center;
+	line-height: 1.6;
+	font-size: 12px;
+}
+.img{ 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	 }
+.bullet{
+	justify-content: center;
+	font-family: Helvetica; sans-serif
+	font-size: 18px;
+	color: #000000;
+	padding: 5px;
+	list-style-type: none;
+	/*padding-left: 300px;
+	padding-right: 300px;*/
+
+	/*padding-right:5px;*/
+}
+.bullet2{
+	justify-content: center;
+	font-family: Helvetica; sans-serif
+	font-size: 18px;
+	color: #000000;
+	padding: 5px;
+	list-style-type: none;
+	/*padding-left: 300px;
+	padding-right: 300px;*/
+
+	/*padding-right:5px;*/
+}
+.bullet3{
+	justify-content: center;
+	font-family: Helvetica; sans-serif
+	font-size: 18px;
+	color: #000000;
+	padding: 5px;
+	list-style-type: none;
+	/*padding-left: 300px;
+	padding-right: 300px;*/
+
+	/*padding-right:5px;*/
+}
+.textbox1{
+	display: flex;
+	flex-wrap: wrap;
+	width: 600px;
+	height: 640px;
+	padding: 8px;
+	border-style: dashed;
+	font-size: 20px;
+	/*margin-left: 5px;*/
+}
+/*this media query below is affecting all links. idky*/
+.textbox2{
+	width: 145px;
+	height: 30px;
+	padding: 5px ;
+	display: flex;
+	flex-wrap: wrap;
+	border-style: dashed;
+	font-size: 20px;
+	padding: 8px;
+	/*margin-left: 5px;*/
+}
+.textbox3{
+	width: 335px;
+	height: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	border-style: dashed;
+	padding: 8px;
+}
+.textbox4{
+	width: 200px;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	border-style: dashed;
+	padding: 8px;
+}
+.textbox5{
+	width: 140px;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	border-style: dashed;
+	padding: 8px;
+}
+.links{
+	justify-content: center;
+	flex-wrap: wrap;
+	line-height: 1.6;
+	font-family: Helvetica, sans-serif;
+	font-size: 26px;
+	color: #000000;
+}
+.links2{
+	justify-content: center;
+	flex-wrap: wrap;
+	line-height: 1.6;
+	font-family: Helvetica, sans-serif;
+	font-size: 25px;
+	color: #000000;
+}
+.links3{
+	justify-content: center;
+	flex-wrap: wrap;
+	line-height: 1.6;
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+	color: #000000;
+}
+.links4{
+	justify-content: center;
+	flex-wrap: wrap;
+	line-height: 1.6;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000000;
+}
+.links5{
+	justify-content: center;
+	flex-wrap: wrap;
+	line-height: 1.6;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+}
+.rule-a{
+	width: 75%;
+	height: 3px;
+	border-width: 5px;
+}
+.rule-b{
+	width: 35%;
+	border: double #000000;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.rule-c{
+	width: 20%;
+	border-top: 3px dotted #000000;
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+.textbox1 {
+height: 750px;
+}
+}
+/*consider making "list" style*/
+@media screen and (max-width: 1700px) and (min-width: 756px) {
+.main{
+padding-left: 30%;
+padding-right: 30%;
+}
+}
+@media screen and (max-width: 1700px) and (min-width: 756px) {
+.submain{
+padding-left: 5%;
+padding-right: 5%;
+}
+}
+@media screen and (max-width: 1700px) and (min-width: 756px) {
+.bullet{
+padding-left: 15%;
+padding-right: 15%;
+}
+}
+@media screen and (max-width: 1700px) and (min-width: 756px) {
+.bullet2{
+padding-left: 30%;
+padding-right: 30%;
+}
+}
+@media screen and (max-width: 1700px) and (min-width: 759px){
+.bullet3{
+padding-left: 41.5%;
+padding-right: 35%
+}
+}
+@media screen and (max-width: 1700px) and (min-width: 756px) {
+.small2{
+padding-left: 30%;
+padding-right: 30%;
+}
+}
+@media screen and (max-width: 1700px) and (min-width: 756px) {
+.bigsub{
+padding-left: 30%;
+padding-right: 30%;
+}
+}
+@media screen and (max-width: 1700px) and (min-width: 756px) {
+.sub{
+padding-left: 30%;
+padding-right: 30%;
+}
+}
