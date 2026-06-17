@@ -9,6 +9,8 @@ body{
 	margin-right: 20%;*/
 
 .banner{
+	display: flex;
+	flex: auto;
 	object-fit: cover;
 	width: 100%;
 	height: fit-content;
