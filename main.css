@@ -246,7 +246,7 @@ body{
 }
 @media screen and (max-width: 500px) {
 .banner {
-height: 80px;
+height: 75%;
 width: 380px;
 }
 }
