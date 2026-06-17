@@ -9,8 +9,6 @@ body{
 	margin-right: 20%;*/
 
 .banner{
-	display: flex;
-	flex: auto;
 	object-fit: cover;
 	width: 100%;
 	height: fit-content;
@@ -246,7 +244,12 @@ body{
 	margin-top: 2px;
 	margin-bottom: 10px;
 }
-
+@media screen and (max-width: 500px) {
+.banner {
+height: 50%;
+width: 380px;
+}
+}
 @media screen and (max-width: 500px) {
 .textbox1 {
 height: 750px;
