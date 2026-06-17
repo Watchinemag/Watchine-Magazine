@@ -23,7 +23,7 @@ body{
 	justify-content: center;
 	flex-wrap: wrap;
 	line-height: 1.2;
-	font-size: 26px;
+	font-size: 20px;
 	text-align: center;
 	/*padding-right:5px;*/
 	font-family: Helvetica, sans-serif
@@ -246,7 +246,7 @@ body{
 }
 @media screen and (max-width: 500px) {
 .banner {
-height: 50%;
+height: 80px;
 width: 380px;
 }
 }
